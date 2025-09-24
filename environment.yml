@@ -1,0 +1,17 @@
+name: nesk-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - openpyxl
+  - python-docx
+  - pyodbc
+  - flake8
+  - pytest
+  - pip
+  - pip:
+    - tkcalendar
+    - pywin32
