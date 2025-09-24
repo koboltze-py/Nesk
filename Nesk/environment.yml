@@ -1,0 +1,8 @@
+name: nesk-env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  # weitere Pakete nach Bedarf
